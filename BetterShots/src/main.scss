@@ -69,6 +69,12 @@ a {
   font-weight: 700;
 }
 // BASE STYLES
+
+html {
+  // font-size: 100%; // 100% is 16px if browser font size is the default value, so normally 1rem = 16px
+  font-size: 62.5%; // 62.5% of 16px = 10px, so 1rem = 10px
+}
+
 .page {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
